@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--color-light);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--text-primary);
+}
+
+:root{
+    /* Cores principais */
+    --color-primary: #1E3A5F;      /* Azul escuro */
+    --color-secondary: #D4A24C;    /* Dourado */
+
+    /* Neutras */
+    --color-white: #FFFFFF;
+    --color-light: #F8F9FA;
+    --color-gray: #E5E7EB;
+    --color-dark: #1F2937;
+
+    /* Textos */
+    --text-primary: #1F2937;
+    --text-secondary: #6B7280;
+
+    /* CTA */
+    --whatsapp: #25D366;
+    --whatsapp-hover: #1EBE5D;
+
+    /* Sombras */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,.08);
+    --shadow-md: 0 8px 20px rgba(0,0,0,.12);
+
+    /* Espaçamentos */
+    --container-width: 1200px;
+    --section-padding: 6rem;
+}
