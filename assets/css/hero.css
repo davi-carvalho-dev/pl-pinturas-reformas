@@ -1,0 +1,50 @@
+.hero {
+    min-height: 100vh;
+    padding-top: 80px; /* Evita que o menu desktop cubra o topo do hero */
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(30, 58, 95, 0.85),
+            rgba(23, 43, 71, 0.90)
+        ),
+        url('../../imagens/hero-image-menor.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-content {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 64px; /* Tamanho proporcional ao da imagem */
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.hero h1 span {
+    color: #F1C40F; /* Altere aqui para a cor dourada/amarela das suas variáveis */
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 850px;
+    line-height: 1.5;
+    margin-bottom: 48px;
+    opacity: 0.9;
+}

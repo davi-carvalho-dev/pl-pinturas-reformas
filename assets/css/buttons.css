@@ -21,3 +21,48 @@
     transform: translateY(-2px);
     background-color: var(--whatsapp-hover);
 }
+/* BOTÕES ESPECÍFICOS DO HERO */
+
+.btn-hero-whatsapp {
+    background-color: #2ecc71; /* Cor verde do WhatsApp da imagem */
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 32px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-hero-whatsapp i {
+    font-size: 20px;
+}
+
+.btn-hero-whatsapp:hover {
+    background-color: #27ae60;
+    transform: translateY(-2px);
+}
+
+.btn-hero-projects {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 32px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-hero-projects:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+}

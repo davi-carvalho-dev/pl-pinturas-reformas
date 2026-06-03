@@ -1,0 +1,68 @@
+
+@media (max-width: 768px) {
+    /* Ajustes na Seção Hero */
+    .hero {
+        min-height: auto;
+        padding: 120px 0 60px 0; /* Dá mais espaço no topo por conta do menu mobile */
+    }
+
+    .hero h1 {
+        font-size: 36px; /* Diminui o título para não estourar a tela do celular */
+        line-height: 1.3;
+        margin-bottom: 16px;
+        padding: 0 10px;
+    }
+
+    /* Remove a quebra de linha forçada (<br>) no mobile para o texto fluir melhor */
+    .hero h1 br {
+        display: none;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+        margin-bottom: 35px;
+        padding: 0 15px;
+    }
+
+    .hero-subtitle br {
+        display: none;
+    }
+
+    /* Ajustes no Layout dos Cards */
+    .cards-layout {
+        gap: 30px;
+    }
+
+    .hero-main {
+        flex-direction: column; /* Empilha os cards um em cima do outro */
+        align-items: center;
+        gap: 15px; /* Reduz o espaçamento entre eles no mobile */
+    }
+
+    .card-glass {
+        width: 100%;
+        max-width: 320px; /* Faz os cards ocuparem quase toda a largura interna */
+        padding: 20px; /* Reduz um pouco o padding interno para economizar tela */
+    }
+
+    .card-number {
+        font-size: 28px; /* Deixa os números um pouco menores e mais elegantes */
+    }
+
+    /* Ajustes nos Botões de Ação */
+    .hero-actions {
+        flex-direction: column; /* Empilha o botão do Whats e de Projetos */
+        width: 100%;
+        max-width: 320px; /* Alinha a largura dos botões com a dos cards */
+        gap: 12px;
+    }
+
+    .btn-hero-whatsapp, 
+    .btn-hero-projects {
+        width: 100%; /* Faz ambos os botões ficarem com largura total no container */
+        text-align: center;
+        justify-content: center;
+        padding: 14px 20px; /* Ajusta o clique para telas de toque */
+        font-size: 15px;
+    }
+}
