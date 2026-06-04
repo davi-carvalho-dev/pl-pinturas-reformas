@@ -37,7 +37,7 @@
 }
 
 .hero h1 span {
-    color: #F1C40F; /* Altere aqui para a cor dourada/amarela das suas variáveis */
+    color: var(--color-secondary); 
 }
 
 .hero-subtitle {

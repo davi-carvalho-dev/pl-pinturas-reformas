@@ -66,3 +66,24 @@
         font-size: 15px;
     }
 }
+
+/* MEDIA DO SERVICES */
+
+@media (max-width: 768px) {
+    .services-section {
+        padding: 50px 0;
+    }
+
+    .main-titulo h1 {
+        font-size: 28px;
+    }
+
+    .services-container {
+        gap: 20px;
+    }
+
+    .service-card {
+        flex: 1 1 100%; 
+        padding: 30px 20px;
+    }
+}
