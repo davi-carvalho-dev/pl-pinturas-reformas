@@ -8,6 +8,8 @@ O objetivo desta aplicação é fornecer uma presença digital moderna para a em
 
 A interface foi projetada seguindo princípios de responsividade, experiência do usuário (UX) e otimização para conversão (CRO).
 
+Veja o projeto rodando aqui: [Clique aqui para acessar](https://pl-pinturas-reformas.vercel.app)
+
 ## ✨ Funcionalidades
 
 * Navegação por âncoras entre seções
