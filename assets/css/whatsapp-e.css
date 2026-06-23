@@ -1,0 +1,66 @@
+
+header, nav.navbar {
+    position: fixed;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;     
+    background-color: #1E3A5F;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#inicio, .hero-section {
+    padding-top: 80px; 
+}
+
+.whatsapp-flutuante {
+    position: fixed;
+    bottom: 20px;        
+    right: 20px;      
+    width: 60px;
+    height: 60px;
+    background-color: #25D366; 
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;      
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+   
+    animation: pulsarWhatsapp 2s infinite;
+}
+
+/* Efeito Hover na bolinha */
+.whatsapp-flutuante:hover {
+    background-color: #128C7E; 
+    transform: scale(1.1);     
+}
+
+/* Animação de pulso */
+@keyframes pulsarWhatsapp {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+/* Ajuste rápido para não cobrir o botão em telas muito pequenas */
+@media (max-width: 480px) {
+    .whatsapp-flutuante {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
